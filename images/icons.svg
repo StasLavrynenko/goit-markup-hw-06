@@ -74,5 +74,8 @@
   <symbol id="icon-icon-send" viewBox="0 0 24 24">
     <path d="M24 0L0 13.5L7.66 16.14L11 24L14.66 18.14L21 21L24 0ZM9.1 15.1L18.1 6.1L11.1 16.1L9.1 15.1Z"/>
   </symbol>
+  <symbol id="icon-menu" viewBox="0 0 24 24">
+  <path d="M3 6H21M3 12H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+</symbol>
 </defs>
 </svg>
