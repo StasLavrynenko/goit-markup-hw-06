@@ -387,12 +387,17 @@ img { display: block; max-width: 100%; height: auto; }
 }
 @media screen and (min-width: 768px) {
   .footer-info {
-    text-align: left;
+    text-align: center;
   }
 }
 .footer-logo { margin-bottom: 16px; display: inline-block; margin-right: 0; }
 .logo-studio-footer { color: var(--cloud); }
-.footer-text { color: var(--cloud); line-height: 1.5; max-width: 264px; text-align: center; }
+.footer-text {
+  color: var(--cloud);
+  line-height: 1.5;
+  max-width: 264px;
+  text-align: left;
+}
 @media screen and (min-width: 768px) {
   .footer-text {
     text-align: left;
