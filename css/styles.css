@@ -54,10 +54,8 @@ img { display: block; max-width: 100%; height: auto; }
   white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;
 }
 
-/* HEADER */
 .header { 
   border-bottom: 1px solid var(--cornflower);
-  /* ДОБАВЛЕНА ТЕНЬ ПО ТРЕБОВАНИЮ МЕНТОРА */
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container { display: flex; align-items: center; }
@@ -303,7 +301,6 @@ img { display: block; max-width: 100%; height: auto; }
   }
 }
 .team-content { 
-  /* ИСПРАВЛЕН ПАДДИНГ (ДОБАВЛЕНЫ ОТСТУПЫ ПО БОКАМ) */
   padding: 32px 16px; 
   text-align: center; 
 }
@@ -416,7 +413,6 @@ img { display: block; max-width: 100%; height: auto; }
 }
 .footer-social-list { gap: 16px; }
 .footer-social-link:hover, .footer-social-link:focus { background-color: #31d0aa; }
-/* --- СТИЛИ ДЛЯ ФОРМЫ В ФУТЕРЕ --- */
 .footer-subscribe {
   width: 100%;
 }
