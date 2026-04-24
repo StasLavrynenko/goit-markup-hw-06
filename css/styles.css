@@ -286,6 +286,7 @@ img { display: block; max-width: 100%; height: auto; }
 }
 @media screen and (min-width: 768px) {
   .team-list {
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -395,7 +396,7 @@ img { display: block; max-width: 100%; height: auto; }
 }
 .footer-logo { margin-bottom: 16px; display: inline-block; margin-right: 0; }
 .logo-studio-footer { color: var(--cloud); }
-.footer-text { color: var(--cloud); line-height: 1.5; max-width: 264px; }
+.footer-text { color: var(--cloud); line-height: 1.5; max-width: 264px; text-align: left; }
 .footer-social-title {
   font-weight: 500;
   text-align: center;
