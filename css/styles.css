@@ -130,6 +130,9 @@ img { display: block; max-width: 100%; height: auto; }
 @media screen and (min-width: 1158px) {
   .hero {
     padding: 188px 0;
+
+    max-width: 1440px;
+    margin: 0 auto;
   }
 }
 @media screen and (min-resolution: 2dppx) {
@@ -163,6 +166,7 @@ img { display: block; max-width: 100%; height: auto; }
   }
 }
 .hero-title {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -386,7 +390,7 @@ img { display: block; max-width: 100%; height: auto; }
 @media screen and (min-width: 1158px) {
   .footer-info {
     margin-right: 120px;
-  }
+  }ё
 }
 @media screen and (min-width: 768px) {
   .footer-info {
