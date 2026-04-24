@@ -327,6 +327,10 @@ img { display: block; max-width: 100%; height: auto; }
               0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 @media screen and (min-width: 768px) {
+  .portfolio-list {
+    row-gap: 72px;
+  }
+
   .portfolio-item {
     width: calc((100% - 24px) / 2);
   }
@@ -376,12 +380,17 @@ img { display: block; max-width: 100%; height: auto; }
   gap: 72px;
 }
 .footer-info {
-  text-align: left;
+  text-align: center;
 }
 
 @media screen and (min-width: 1158px) {
   .footer-info {
     margin-right: 120px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-info {
+    text-align: left;
   }
 }
 .footer-logo { margin-bottom: 16px; display: inline-block; margin-right: 0; }
